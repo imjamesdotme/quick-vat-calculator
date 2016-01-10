@@ -1,0 +1,165 @@
+/* Main */
+html {
+  width: 260px;
+  height: 132px;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: ‘Helvetica’, sans-serif;
+  font-weight: 300;
+  background-color: #ffffff;
+}
+
+.wrapper {
+  margin: 10px;
+}
+
+label {
+  font-size: 14px;
+  color: #cccccc;
+}
+
+input[id="input"] {
+  width: 100px;
+  height: 25px;
+  font-size: 14px;
+  color: #03a9f4;
+  text-align: center;
+  background: none;
+  border: none;
+  border-bottom: solid 1px #eeeeee;
+  transition: border 0.3s;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+input[id="vat-input"] {
+  width: 40px;
+  height: 25px;
+  margin-left: 4px;
+  font-size: 14px;
+  color: #03a9f4;
+  text-align: center;
+  background: none;
+  border: none;
+  border-bottom: solid 1px #eeeeee;
+  transition: border 0.3s;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+/* Input placeholder text styles */
+input::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #999999;
+}
+
+/* Hides the up & down arrows from the input field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Button styles */
+button {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 50%;
+  border: none;
+}
+
+button[id="addButton"] {
+  background-color: #039be5;
+  margin-left: 9px;
+
+  &:after {
+    content: "+";
+  }
+
+  &:hover {
+    background-color: darken(#039be5, 10);
+  }
+}
+
+button[id="removeButton"] {
+  background-color: #0288d1;
+
+  &:after{
+    content: "-";
+  }
+
+  &:hover {
+    background-color: darken(#0288d1, 10);
+  }
+}
+
+/* Removes button select styling from Chrome */
+button:focus {
+  outline:0;
+}
+
+.leftcol, .rightcol {
+  box-sizing: border-box;
+  width: 50%;
+  height: 55px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.leftcol {
+  border-right: 1px solid #eeeeee;
+}
+
+/* Outputted amount header & value */
+#amount, #vatamount {
+  font-size: 12px;
+  color: #cccccc;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Outputted amount with/without VAT header & value */
+#output, #outputVatdiff {
+  font-size: 16px;
+  color: #03a9f4;
+  text-align: center;
+  border: none;
+  margin-top: 5px;
+}
+
+/* Footer content */
+footer {
+  width: 100%;
+  clear: both;
+  background-color: #03a9f4;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+p {
+  font-size: 10px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+a:visited,
+a:hover,
+a:active {
+  color: #ffffff;
+}

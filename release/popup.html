@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="James L">
+  <meta name="description" content="Quick VAT Calculator - Quickly calcuate VAT without leaving Chrome.">
+  <link rel="stylesheet" type="text/css" href="styles.min.css">
+  <script type="text/javascript" src="vatcalc.min.js"></script>
+  <title>Quick VAT Calculator</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <label>&pound;</label><input type="input" id="input" name="input" placeholder="input your value">
+    <input type="input" id="vat-input" name="vat-input" value="20"><label>&#37;</label>
+    <button id="addButton"><i class="icon-plus"></i></button>
+    <button id="removeButton"><i class="icon-minus"></i></button>
+    <br>
+    <div class="leftcol">
+      <div id="amount">Inc VAT</div>
+      <div id="output" placeholder="total"></div>
+    </div>
+    <div class="rightcol">
+      <div id="vatamount">VAT Amount</div>
+      <div id="outputVatdiff"></div>
+    </div>
+  </div>
+  <footer>
+    <p>BUILT BY <a href="http://imjames.me" title="I'm James" target="_blank">I'm James</a></p>
+  </footer>
+</body>
+
+</html>
