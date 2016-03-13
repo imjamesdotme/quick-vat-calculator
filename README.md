@@ -12,6 +12,11 @@ For ease & speed Quick VAT Calculator calculates VAT at 20% but you can change t
 Please note: Quick VAT Calculator is intended to be used as a guide/reference calculator.
 
 ### Release History
+
+**Version 1.1.1**
+
+* Added keypress support - 'enter' key will add VAT while 'shift' or 'down arrow' will remove VAT.
+
 **Version 1.1**
 
 * Added support for custom VAT amounts.
