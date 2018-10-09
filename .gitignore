@@ -1,0 +1,21 @@
+# Packages #
+############
+*.zip
+*.sass-cache
+bower_components
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+
+# Other #
+######################
+release/*.html
+release/*.js
+release/*.css

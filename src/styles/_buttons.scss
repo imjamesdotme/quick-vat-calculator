@@ -1,0 +1,38 @@
+button {
+  flex: 0 0 26px;
+  height: 26px;
+  font-size: 18px;
+  color: $white;
+  border-radius: 50%;
+  border: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#add {
+  margin-left: 9px;
+  background-color: $light-blue;
+
+  &:after {
+    content: '+';
+  }
+
+  &:hover {
+    background-color: darken($light-blue, 10);
+  }
+}
+
+#remove {
+  margin-left: 5px;
+  background-color: $dark-blue;
+
+  &:after {
+    content: '-';
+  }
+
+  &:hover {
+    background-color: darken($dark-blue, 10);
+  }
+}

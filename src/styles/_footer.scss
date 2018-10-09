@@ -1,0 +1,21 @@
+footer {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: $light-blue;
+  text-align: center;
+}
+
+a {
+  color: $white;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+a:visited,
+a:hover,
+a:active {
+  color: $white;
+}
