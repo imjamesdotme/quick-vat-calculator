@@ -5,16 +5,15 @@ html(lang="en")
         meta(name="author" content="James L")
         meta(name="description" content="Quick VAT Calculator - Quickly calculate VAT without leaving Chrome.")
         link(rel="stylesheet" type="text/css" href="styles.css")
-        script(type="text/javascript" src="main.js")
         title Quick VAT Calculator
 
     body
         .wrapper
             .form
-                label(for="input") &pound;
-                input(type="input" id="inital-value" name="input" placeholder="input your value")
-                input(type="input" id="vat-percentage" name="vat-input" value="20")
-                label(for="vat-input") &#37;
+                label(for="inital-value" id="currency") &pound;
+                input(type="number" id="inital-value" name="input" placeholder="input your value")
+                input(type="number" id="vat-percentage" name="vat-input" value="20")
+                label(for="vat-percentage") &#37;
                 button(id="add")
                 button(id="remove")
             .results
@@ -25,4 +24,6 @@ html(lang="en")
                     h3 VAT Amount
                     #vat-value
         footer
-            a(href="" title="Settings" target="_blank") Settings
+             button(id="options") Options
+        
+        script(type="text/javascript" src="main.js")

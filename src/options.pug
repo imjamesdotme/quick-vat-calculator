@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        link(rel="stylesheet" type="text/css" href="options.css")
+        title Quick VAT Calculator | Options
+
+    body
+        h1 Options
+
+        form
+            label VAT Amount
+                span Set the default VAT amount
+                input(type="number" id="vat-percentage" name="vat-percentage")
+                span.error-message Please enter a number (value must be 1 or higher).
+
+            label Currency
+                span Set the default currency
+                select#currency
+                    option(value="&pound;") &pound; - Pounds
+                    option(value="&dollar;") &dollar; - Dollars
+                    option(value="&euro;") &euro; - Euros
+
+            button(id="save" type="submit") Save options
+        p#status Options saved
+        footer
+            a(href="http://imjames.me" title="I'm James Portfolio" target="_blank") Built by <span>I'm James</span>
+
+        script(type="text/javascript" src="options.js")

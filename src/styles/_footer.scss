@@ -1,11 +1,11 @@
 footer {
-  padding-top: 7px;
-  padding-bottom: 7px;
   background-color: $light-blue;
   text-align: center;
 }
 
-a {
+button#options {
+  border: none;
+  background-color: transparent;
   color: $white;
   font-size: 12px;
   text-decoration: none;

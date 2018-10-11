@@ -42,11 +42,39 @@ function keyEventHandler(e) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  // When Add VAT button is clicked, run addVAT function
+function openOptions() {
+  if (chrome.runtime.openOptionsPage) {
+    chrome.runtime.openOptionsPage();
+  } else {
+    window.open(chrome.runtime.getURL('options.html'));
+  }
+}
+
+function initialiseOptions() {
+  chrome.storage.sync.get('options', function(storage) {
+    // If the value doesn't exist, default to 20.
+    document.getElementById('vat-percentage').value = storage.options
+      .vatPercentage
+      ? storage.options.vatPercentage
+      : 20;
+
+    document.getElementById('currency').innerHTML = storage.options.currency;
+  });
+}
+
+function initialise() {
+  // Focus on inital value input.
+  document.getElementById('inital-value').focus();
+  // Handle add/remove events.
   document.getElementById('add').addEventListener('click', addVAT);
-  // When Remove VAT button is clicked, run removeVAT function
   document.getElementById('remove').addEventListener('click', removeVAT);
-  // Handle keypdown events.
+  // Handle opening options.
+  document.getElementById('options').addEventListener('click', openOptions);
+  // Handle keydown events.
   document.addEventListener('keydown', keyEventHandler, false);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  initialiseOptions();
+  initialise();
 });

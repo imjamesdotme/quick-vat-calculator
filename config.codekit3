@@ -24,15 +24,70 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/release/icon128.png": {
+		"ft": 32768,
+		"iS": 2291,
+		"oA": 0,
+		"oAP": "/release/icon128.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/release/icon19x19.png": {
+		"ft": 32768,
+		"iS": 1347,
+		"oA": 0,
+		"oAP": "/release/icon19x19.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/release/icon256.png": {
+		"ft": 32768,
+		"iS": 3655,
+		"oA": 0,
+		"oAP": "/release/icon256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/release/icon48.png": {
+		"ft": 32768,
+		"iS": 1728,
+		"oA": 0,
+		"oAP": "/release/icon48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/release/icon76x76.png": {
+		"ft": 32768,
+		"iS": 1316,
+		"oA": 0,
+		"oAP": "/release/icon76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/release/main.js": {
 		"ft": 64,
@@ -51,6 +106,33 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/release/options.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/release/options-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/release/options.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/release/options.html",
+		"oF": 0
+		},
+	"/release/options.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/release/options-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/release/popup.html": {
 		"cB": 0,
@@ -72,9 +154,9 @@
 	"/src/images/icon128.png": {
 		"ft": 32768,
 		"iS": 2291,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/release/icon128.png",
-		"oF": 2,
+		"oF": 3,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -83,9 +165,9 @@
 	"/src/images/icon19x19.png": {
 		"ft": 32768,
 		"iS": 1347,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/release/icon19x19.png",
-		"oF": 2,
+		"oF": 3,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -94,9 +176,9 @@
 	"/src/images/icon256.png": {
 		"ft": 32768,
 		"iS": 3655,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/release/icon256.png",
-		"oF": 2,
+		"oF": 3,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -105,9 +187,9 @@
 	"/src/images/icon48.png": {
 		"ft": 32768,
 		"iS": 1728,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/release/icon48.png",
-		"oF": 2,
+		"oF": 3,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -116,9 +198,9 @@
 	"/src/images/icon76x76.png": {
 		"ft": 32768,
 		"iS": 1316,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/release/icon76x76.png",
-		"oF": 2,
+		"oF": 3,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -142,6 +224,25 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/src/options.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/release/options.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/options.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/release/options.html",
+		"oF": 2,
+		"oS": 0
 		},
 	"/src/styles/_buttons.scss": {
 		"aP": 0,
@@ -217,6 +318,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/release/styles.css",
+		"oF": 2,
+		"oS": 3,
+		"uL": 1
+		},
+	"/src/styles/options.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/release/options.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1

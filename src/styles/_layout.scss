@@ -14,17 +14,17 @@ body {
 
 .results {
   display: flex;
-}
 
-.results .container {
-  box-sizing: border-box;
-  flex: 1 0 50%;
-  height: 55px;
-  margin-top: 10px;
-}
+  .container {
+    box-sizing: border-box;
+    flex: 1 0 50%;
+    height: 55px;
+    margin-top: 10px;
+  }
 
-.results .container:first-of-type {
-  border-right: 1px solid $light-grey;
+  .container:first-of-type {
+    border-right: 1px solid $light-grey;
+  }
 }
 
 h3 {

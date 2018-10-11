@@ -1,0 +1,101 @@
+@import '_colours';
+
+body {
+  margin: 0;
+  padding: 25px 25px 0 25px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+form {
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: $light-blue;
+
+    &:last-of-type {
+      margin-bottom: 30px;
+    }
+  }
+
+  span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: $grey;
+  }
+
+  input {
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+  }
+
+  .error-message {
+    visibility: hidden;
+    margin-top: 10px;
+    color: $red;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $dark-blue;
+    border: none;
+    font-weight: bold;
+
+    &:hover,
+    &focus {
+      background-color: $light-blue;
+    }
+  }
+}
+
+#status {
+  visibility: hidden;
+  margin: 10px -25px 0 -25px;
+  padding: 10px 0;
+  color: $white;
+  background-color: $green;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: 0.3s ease-in-out;
+}
+
+footer {
+  margin-left: -25px;
+  margin-right: -25px;
+  padding: 10px 0;
+  color: $white;
+  background-color: $light-blue;
+  text-align: center;
+  text-transform: uppercase;
+
+  span {
+    color: $white;
+    font-weight: bold;
+  }
+}
+
+footer a {
+  color: $white;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  &:visited,
+  &:hover,
+  &:active {
+    color: $white;
+  }
+}
