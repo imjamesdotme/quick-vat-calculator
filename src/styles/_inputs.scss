@@ -1,3 +1,5 @@
+@import "_colours";
+
 .form {
   display: flex;
   justify-content: center;
@@ -31,7 +33,7 @@ input {
   }
 }
 
-#inital-value {
+#initial-value {
   flex: 0 0 100px;
   min-width: 100px;
   height: 25px;
